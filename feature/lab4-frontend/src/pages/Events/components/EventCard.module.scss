@@ -1,0 +1,22 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #fff;
+  transition: box-shadow 0.2s;
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  h3 {
+    margin-top: 0;
+  }
+  p {
+    margin: 0.5rem 0;
+  }
+}
+
+.deleted {
+  opacity: 0.6;
+  background-color: #f8f9fa;
+  border-color: #aaa;
+}
